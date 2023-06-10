@@ -10,7 +10,7 @@ credits: true
 
 {% include feature/jumbotron.html objectid="crimdata012" %}
 
-{% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
+{% include feature/nav-menu.html sections="About the Collection" %}
 
 ## About the Collection
 {% include feature/card.html header="Professor John Llewellyn Jones Edwards (1939-1994)" text="*Founding Director, Centre of Criminology (1963-1976)*" objectid="crimdata011" width="25" centered=true %}
