@@ -38,10 +38,10 @@ locations-stopwords: # set of subjects separated by ; that will be removed from 
 # MAP PAGE
 #
 # see _data/map-config.csv for field display options
-latitude: 46.727485 #to determine center of map
-longitude: -117.014185 #to determine center of map
-zoom-level: 5 # zoom level for map 
-map-base: Esri_WorldStreetMap # set default base map, choose from: Esri_WorldStreetMap, Esri_NatGeoWorldMap, Esri_WorldImagery, OpenStreetMap_Mapnik
+latitude: 43.66199969375386 #to determine center of map
+longitude: -79.39293873317779 #to determine center of map
+zoom-level: 19 # zoom level for map 
+map-base: OpenStreetMap_Mapnik # set default base map, choose from: Esri_WorldStreetMap, Esri_NatGeoWorldMap, Esri_WorldImagery, OpenStreetMap_Mapnik
 map-search: true # true/false, not suggested with large collections
 map-search-fuzziness: 0.35 # fuzzy search range from 1 = anything to 0 = exact match only
 map-cluster: true # true/false, suggested for large collection or with many items in same location
@@ -90,7 +90,7 @@ navbar-background: bg-dark
 # BOOTSWATCH THEMES
 # You can replace the standard Bootstrap theme with a Bootswatch (https://github.com/thomaspark/bootswatch) option
 # Enter one of the following options below: cerulean; cosmo; cyborg; darkly; flatly; journal; litera; lumen; lux; materia; minty; pulse; sandstone; simplex; sketchy; slate; solar; spacelab; superhero; united; yeti 
-bootswatch: # leave blank or comment out for plain bootstrap
+bootswatch: lux # leave blank or comment out for plain bootstrap
 
 # THEME FONTS
 base-font-size: 1.2em
